@@ -32,10 +32,7 @@ function vRP.getUserIdByIdentifiers(ids)
 			end
 		end
 
-		-- BEFORE ---> local rows,affected = vRP.query("vRP/create_user",{})
-
 		local affected, rows = vRP.query("vRP/create_user",{})
-		-- AFTER ^
 
 		if #rows > 0 then
 			local user_id = rows[1].id
