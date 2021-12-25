@@ -59,4 +59,4 @@ set mysql_connection_string "mysql://root@localhost/database?charset=utf8mb4"
 
 ### 9. Replace "database" with the name of your database
 
-## End of tutorial
+### End of tutorial
