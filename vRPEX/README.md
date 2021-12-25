@@ -2,8 +2,8 @@
 
 ## Installation
 
-#### 1. Open **vrp/cfg/base.lua**
-#### 2. Change a **driver** key of the object to **oxmysql**
+### 1. Open **vrp/cfg/base.lua**
+### 2. Change a **driver** key of the object to **oxmysql**
 
 ```lua
 {
